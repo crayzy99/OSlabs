@@ -71,7 +71,7 @@ ThreadTest2()
 	
 	for (int i = 1; i <= 128; i++) {
 		Thread *t = new Thread("forked thread");
-		printf("***thread %d user id %d created.\n", t->tid, t->uid);
+		printf("***thread %d user id %d created.\n", t->getTid(), t->getUserID());
 	}
 }
 
@@ -84,7 +84,6 @@ void
 ThreadTest3()
 {
 	DEBUG('t', "Printing threads");
-	
 	
 }
 
