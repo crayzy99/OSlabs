@@ -1,4 +1,5 @@
-int print_hello() {
-	printf('helloworld');
-	return 0;
+#include <stdio.h>
+
+void print_hello() {
+	printf("helloworld");
 }

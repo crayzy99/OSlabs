@@ -60,7 +60,6 @@ THREAD_C =../threads/main.cc\
 	../threads/thread.cc\
 	../threads/utility.cc\
 	../threads/threadtest.cc\
-	../threads/print_hello.cc\
 	../machine/interrupt.cc\
 	../machine/sysdep.cc\
 	../machine/stats.cc\
